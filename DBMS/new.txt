@@ -1,0 +1,23 @@
+data definition language
+	create
+	drop
+	alter
+	truncate
+	comment
+	rename
+
+data manipulation language
+	select
+	insert
+	update
+	delete
+	
+data control language
+	grant
+	revoke
+	
+transanction control language
+	commit
+	rollback
+	savepoint
+	set

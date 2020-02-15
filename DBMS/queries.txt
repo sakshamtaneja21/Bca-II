@@ -1,0 +1,26 @@
+27/2/19
+
+pl/sql - add 2 numbers with user input
+pl/sql - smallest of 3 numbers
+pl/sql - number input from user and print its table
+pl/sql - even or odd
+
+14/3/19
+
+pl-sql - area of rectangle
+pl-sql - reverse a string
+
+4/4/19
+
+pl-sql - patterns
+	*
+	**
+	***
+	****
+	*****
+pl-sql - patterns
+         *
+       ***
+     *****
+   *******
+ *********

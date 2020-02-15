@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+	<HTML>
+		<HEAD>
+			<TITLE> HTML Basics - 5 </TITLE>
+			<STYLE TYPE = "TEXT/CSS">
+				BODY {
+					background-image: url("dark-blur-abstract-4k-v3-3840x2160.jpg");
+					background-repeat: no-repeat; background-size: cover;
+					font-family: "Ubuntu"; font-size: 19px; color: #F5F5F5;
+				}
+				input[type=text], input[type=password], input[type=email], input[type=date], select, textarea {
+					font-family: "Ubuntu"; font-size: 16px;
+					width: 100%;
+					padding: 6px;
+					box-sizing: border-box;
+					border: none;
+				}
+			</STYLE>
+		</HEAD>
+		<BODY>
+			<FORM NAME = "frm">
+			<TABLE ALIGN = "CENTER" BORDER = "0" CELLPADDING = "5" CELLSPACING = "0">
+				<CAPTION> <FONT SIZE= "6"> Registration Form </FONT> </CAPTION>
+				<TR>
+					<TD> Name </TD>
+					<TD> <INPUT TYPE = "TEXT" PLACEHOLDER = "Enter your name" MAXLENGTH = "32" REQUIRED> </TD>
+				</TR>
+				<TR>
+					<TD> Date of Birth </TD>
+					<TD> <INPUT TYPE = "date" REQUIRED> </TD>
+				</TR>
+				<TR>
+					<TD> Gender </TD>
+					<TD ALIGN = "CENTER">
+						<INPUT TYPE = "RADIO" NAME = "g"> Male
+						<INPUT TYPE = "RADIO" NAME = "g"> Female
+					</TD>
+				</TR>
+				<TR>
+					<TD> E-Mail </TD>
+					<TD> <INPUT TYPE = "EMAIL" PLACEHOLDER = "Enter your email address" REQUIRED> </TD>
+				</TR>
+				<TR>
+					<TD> Password </TD>
+					<TD> <INPUT TYPE = "PASSWORD" PLACEHOLDER = "Enter a suitable password" MAXLENGTH = "16" REQUIRED> </TD>
+				</TR>
+				<TR>
+					<TD> Course </TD>
+					<TD>
+						<SELECT>
+							<OPTION> ---SELECT COURSE--- </OPTION>
+							<OPTION VALUE = "BCOM"> B. Com. </OPTION>
+							<OPTION VALUE = "BBA"> BBA </OPTION>
+							<OPTION VALUE = "BTECH"> B. Tech. </OPTION>
+							<OPTION VALUE = "BCA"> BCA </OPTION>
+							<OPTION VALUE = "BSC"> B. Sc. </OPTION>
+							<OPTION VALUE = "BJMC"> B. JMC </OPTION>
+							<OPTION VALUE = "BDES"> B. Des. </OPTION>
+						</SELECT>
+					</TD>
+				</TR>
+				<TR>
+					<TD> About </TD>
+					<TD> <TEXTAREA ROWS = "3" COLS = "35"> </TEXTAREA> </TD>
+				</TR>
+				<TR>
+					<TD COLSPAN = "2" ALIGN = "CENTER"> <INPUT TYPE = "CHECKBOX"> I agree to the Terms & Conditions. </TD>
+				</TR>
+				<TR>
+					<TD COLSPAN = "2" ALIGN = "CENTER"> 
+						<INPUT TYPE = "RESET" VALUE = "Reset">
+						<INPUT TYPE = "SUBMIT" VALUE = "Submit">
+					</TD>
+				</TR>
+			</TABLE>
+			</FORM>
+		</BODY>
+	</HTML>
